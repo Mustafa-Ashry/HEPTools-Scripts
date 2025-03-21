@@ -1,5 +1,8 @@
 # HEPTools-Scripts
-#Introduction
+# Introduction
+When we generate events in MadGraph a subfolder <Process/Events/run_x_y> is created which contains the events files on parton level by Madevent <unweighted_events.lhe.gz>, hadron level file via Pythia <tag_1_pythia8_events.hepmc.gz> and reco level via root <tag_1_delphes_events.root> or <tag_1_delphes_events.lhco>. 
+
+In addition, this subfolder contains a summery report to the process <run_01_tag_1_banner.txt> which includes the seetings and results of the run and desirably at the end of the file, the cross section.
 
 HEPTools Scripts
 
